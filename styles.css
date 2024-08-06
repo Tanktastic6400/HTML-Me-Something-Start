@@ -1,1 +1,115 @@
 /* Write your CSS here! */
+.games {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    list-style-type: none;
+    color: dodgerblue
+}
+
+.navBar {
+    display: flex;
+    flex-basis: initial;
+    flex-grow: 1;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Brush Script MT', cursive;
+    transition: font-size 2s;
+
+}
+.navBar:nth-of-type(3){
+    flex-basis: 100px;
+}
+.navBar:nth-of-type(4){
+    flex-basis: 100px;
+}
+
+#boldHeading {
+    padding-top: 0px;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#firstP {
+    position: static;
+}
+#mainHeading{
+    color: red;
+}
+.funParagraph{
+    color: green;
+}
+
+article{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-wrap: wrap;
+    text-wrap-style: pretty;
+}
+
+body {
+    background-image: linear-gradient(rgb(38, 180, 240), rgb(112, 0, 110));
+    color: aquamarine;
+    padding-top: 10px;
+    min-height: 98vh;
+}
+header{
+    text-align: center;
+    color: rgb(2, 202, 202);
+    font-size: 80px;
+    font-family: 'Brush Script MT', cursive;
+    background-color: rgb(155, 7, 240);
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(2, 202, 202);
+    font-size: 80px;
+    font-family: 'Brush Script MT', cursive;
+    background-color: rgb(155, 7, 240);
+    padding: 15px;
+}
+
+p {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-wrap: wrap;
+    text-wrap-style: pretty;
+
+}
+
+button {
+    font-size: 25px;
+    font-family: 'Brush Script MT', cursive;
+    background-color: blue;
+    color: rgb(247, 6, 227);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: chocolate;
+    position: absolute;
+    transition: font-size 2s;
+
+}
+
+button:hover {
+    font-size: 35px;
+}
+
+a:visited,
+a:active,
+a:link {
+    color: rgb(10, 4, 77);
+}
+
+a:hover {
+    color: aliceblue;
+}
