@@ -17,10 +17,12 @@
     transition: font-size 2s;
 
 }
-.navBar:nth-of-type(3){
+
+.navBar:nth-of-type(3) {
     flex-basis: 100px;
 }
-.navBar:nth-of-type(4){
+
+.navBar:nth-of-type(4) {
     flex-basis: 100px;
 }
 
@@ -33,14 +35,24 @@
 #firstP {
     position: static;
 }
-#mainHeading{
+
+#mainHeading {
     color: red;
 }
-.funParagraph{
+
+.funParagraph {
     color: green;
 }
 
-article{
+img {
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+article {
     font-family: 'Brush Script MT', cursive;
     font-size: 25px;
     padding: 10px;
@@ -57,7 +69,8 @@ body {
     padding-top: 10px;
     min-height: 98vh;
 }
-header{
+
+header {
     text-align: center;
     color: rgb(2, 202, 202);
     font-size: 80px;
